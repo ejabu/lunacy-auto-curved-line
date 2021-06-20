@@ -1,0 +1,53 @@
+{
+  "identifier": "ejabu.auto.curved",
+  "name": "Auto Curved",
+  "description": "Curved Lines at Ease",
+  "author": "Ejabu",
+  "authorEmail": "muhammadfahreza@gmail.com",
+  "version": "1.0",
+  "icon": "icon.png",
+  "disableCocoaScriptPreprocessor": true,
+  "scope": "document",
+  "suppliesData": false,
+  "menu": {
+    "isRoot": false,
+    "items": [{
+        "title": "ejabu.auto.curved.runscriptidentifier",
+        "isRoot": false
+      },
+      {
+        "title": "ejabu.flip.curved.runscriptidentifier",
+        "isRoot": false
+      },
+      {
+        "title": "ejabu.multi.curved.runscriptidentifier",
+        "isRoot": false
+      }
+    ]
+  },
+  "commands": [{
+      "identifier": "ejabu.auto.curved.runscriptidentifier",
+      "name": "Auto Curved Line",
+      "script": "auto-curved.js",
+      "handlers": {
+        "run": "onRun"
+      }
+    },
+    {
+      "identifier": "ejabu.flip.curved.runscriptidentifier",
+      "name": "Flip Curved Point",
+      "script": "flip-curved.js",
+      "handlers": {
+        "run": "onRun"
+      }
+    },
+    {
+      "identifier": "ejabu.multi.curved.runscriptidentifier",
+      "name": "Multi Curved Point",
+      "script": "multi-curved.js",
+      "handlers": {
+        "run": "onRun"
+      }
+    }
+  ]
+}
